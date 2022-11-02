@@ -5,8 +5,11 @@ This package contains performance models and results of seven cloud design patte
 
 ## Abstract
 *Context.* The adoption of design patterns in the microservice architecture and cloud-native development scope was recently reviewed to investigate the industry practice. Interestingly, when considering performance-related aspects, practitioners focus on specific metrics (e.g., the time taken to handle requests) to identify sources of performance hindrance.
+
 *Objective.* This paper investigates a subset of seven design patterns that industrial practitioners indicate as relevant for system performance. We are interested to quantify the gains and pains of these patterns while considering heterogeneous workloads, thus supporting software architects in understanding the root causes of performance issues. 
+
 *Method.* We use queuing networks to build the performance models of the seven design patterns and extract quantitative insights from model-based performance analysis. Our performance models are flexible in their input parameterization and reusable in different application contexts. 
+
 *Results.* We find that most design patterns confirm the expectation of practitioners, and our experimental results assess the identified gains and pains. One design pattern (i.e., Gateway Offloading) shows the peculiar characteristic of contributing to pains in some cases, leading to novel insights about the performance impact of microservice patterns.
 
 

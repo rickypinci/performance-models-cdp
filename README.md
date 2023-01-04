@@ -5,7 +5,9 @@ This package contains performance models and results of seven cloud design patte
 
 ## Authors
 Riccardo Pinciroli (Gran Sasso Science Institute), Italy
+
 Aldeida Aleti (Monash University), Australia
+
 Catia Trubiani (Gran Sasso Science Institute), Italy
 
 

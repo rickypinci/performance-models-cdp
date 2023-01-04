@@ -1,6 +1,12 @@
 # Performance Modeling and Analysis of Design Patterns for Microservice Systems
 
-This package contains performance models and results of seven cloud design patterns analyzed in our paper.
+This package contains performance models and results of seven cloud design patterns analyzed in the paper *"Performance Modeling and Analysis of Design Patterns for Microservice Systems"* published at the 20th IEEE International Conference on Software Architecture (ICSA 2023).
+
+
+## Authors
+Riccardo Pinciroli (Gran Sasso Science Institute), Italy
+Aldeida Aleti (Monash University), Australia
+Catia Trubiani (Gran Sasso Science Institute), Italy
 
 
 ## Abstract

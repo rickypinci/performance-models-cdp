@@ -1,7 +1,7 @@
 # Replication Package: Performance Modeling and Analysis of Design Patterns for Microservice Systems
 
 [![DOI](https://zenodo.org/badge/560469456.svg)](https://zenodo.org/badge/latestdoi/560469456)  
-This package contains performance models and results of seven cloud design patterns analyzed in the paper *"Performance Modeling and Analysis of Design Patterns for Microservice Systems"* published at the 20th IEEE International Conference on Software Architecture (ICSA 2023).
+This package contains performance models and results of seven cloud design patterns analyzed in the paper *"Performance Modeling and Analysis of Design Patterns for Microservice Systems"* accepted for publication in the 20th IEEE International Conference on Software Architecture (ICSA 2023).
 
 
 ## Authors
@@ -37,7 +37,7 @@ Catia Trubiani (Gran Sasso Science Institute), Italy
 - Python 3.8.10
 - Users can install required Python modules by running <tt>pip3 install -r requirements.txt</tt>
 - Java Modelling Tools (JMT), download the [JAR version](https://sourceforge.net/projects/jmt/files/jmt/JMT-1.2.1/JMT-singlejar-1.2.1.jar/download)
-  - [Oracle/Sun Java Runtime Environment](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (version 1.6 or later)
+  - [Oracle/Sun Java Runtime Environment](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (version 1.6 or later) or [OpenJDK](https://openjdk.org/install/) (version 9 or later)
 
 
 ## Run a simulation

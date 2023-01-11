@@ -19,7 +19,7 @@ To reproduce results presented in the paper, users can run new simulation. In th
 5. Execute all cells in that file.
 
 
-## Executes provided models with different input parameters
+## Run provided models with different input parameters
 Users can also tune input parameters of provided models to study different applications designed with the same patter.
 Please, follow these steps to study your own applications with our model:
 1. Open <tt>separated\_HW/runSim.py</tt>

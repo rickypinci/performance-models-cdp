@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <archive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="model.placeholder..jsimg" timestamp="Wed Sep 28 16:25:37 CEST 2022" xsi:noNamespaceSchemaLocation="Archive.xsd">
-    <sim disableStatisticStop="false" logDecimalSeparator="." logDelimiter="," logPath="/home/riccardo/JMT" logReplaceMode="0" maxEvents="-1" maxSamples="1000000" name="model.placeholder..jsimg" polling="1.0" xsi:noNamespaceSchemaLocation="SIMmodeldefinition.xsd">
+    <sim disableStatisticStop="false" logDecimalSeparator="." logDelimiter="," logPath="/home/riccardo/JMT" logReplaceMode="0" maxEvents="-1" maxSamples="1000000" name="model.placeholder.jsimg" polling="1.0" xsi:noNamespaceSchemaLocation="SIMmodeldefinition.xsd">
         <userClass customers="VAL000" name="Class1" priority="0" referenceSource="Delay 1" type="closed"/>
         <userClass customers="VAL001" name="Class2" priority="0" referenceSource="Delay 1" type="closed"/>
         <node name="Delay 1">

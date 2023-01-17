@@ -23,16 +23,16 @@ To reproduce results presented in the paper, users can run new simulation. In th
 Users can also tune input parameters of provided models to study different applications designed with the same patter.
 Please, follow these steps to study your own applications with our model:
 1. Open <tt>joint/runSim.py</tt>
-2. Edit lines 54--70 with your input parameters (see the [Joint Parameter Table](#joint-parameter-table) for detailed explanation of available parameters) and save the file.
+2. Edit lines 55--70 with your input parameters (see the [Joint Parameter Table](#joint-parameter-table) for detailed explanation of available parameters) and save the file.
 3. Open <tt>separated/runSim.py</tt>
-4. Edit lines 54--72 with your input parameters (see the [Separated Parameter Table](#separated-parameter-table) for detailed explanation of available parameters) and save the file.
+4. Edit lines 55--72 with your input parameters (see the [Separated Parameter Table](#separated-parameter-table) for detailed explanation of available parameters) and save the file.
 5. Run <tt>python3 runSim.py</tt> from the folder <tt>joint/</tt>.
 6. Run <tt>python3 separated/runSim.py</tt> from the folder <tt>separated/</tt>.
 7. Start a Jupyter notebook using <tt>jupyter notebook</tt> from the folder <tt>Pipes\_and\_Filters/</tt>.
 8. Open <tt>analysis.ipynb</tt>.
 9. Execute all cells in that file.
 
-Note that all input parameters (except <tt>OUTFILE</tt> and <tt>NUM\_SIM\_THREADS</tt>) are defined as lists to facilitate the execution of multiple simulation. If lists are not used, the tool will stop working. Use a list with *length = 1* to consider a single value for a parameter; otherwise, use a list with *length = N* to study your system with *N* different values for the considered parameter. 
+Note that all input parameters (except <tt>OUTFILE</tt>) are defined as lists to facilitate the execution of multiple simulation. If lists are not used, the tool will stop working. Use a list with *length = 1* to consider a single value for a parameter; otherwise, use a list with *length = N* to study your system with *N* different values for the considered parameter. 
 
 The tool *combines* all provided input parameters and executes as many simulations as the total number of combinations of input parameters.
 
@@ -63,7 +63,6 @@ The tool *combines* all provided input parameters and executes as many simulatio
 | Parameter | Description |
 | --- | --- |
 | OUTFILE | Name of the file where simulation results will be stored |
-| NUM\_SIM\_THREADS | How many simulations should be run in parallel |
 | N\_TOT | Total number of requests in the system |
 | N\_A | Number of type A requests in the system |
 | Z\_A | Think time of type A requests |

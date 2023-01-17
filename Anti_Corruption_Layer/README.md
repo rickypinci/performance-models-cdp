@@ -22,13 +22,13 @@ To reproduce results presented in the paper, users can run new simulation. In th
 Users can also tune input parameters of provided models to study different applications designed with the same patter.
 Please, follow these steps to study your own applications with our model:
 1. Open <tt>runSim.py</tt>
-2. Edit lines 54--69 with your input parameters (see the [Parameter Table](#parameter-table) for detailed explanation of available parameters) and save the file.
+2. Edit lines 55--69 with your input parameters (see the [Parameter Table](#parameter-table) for detailed explanation of available parameters) and save the file.
 3. Run <tt>python3 runSim.py</tt>.
 4. Start a Jupyter notebook using <tt>jupyter notebook</tt>.
 5. Open <tt>analysis.ipynb</tt>.
 6. Execute all cells in that file.
 
-Note that all input parameters (except <tt>OUTFILE</tt> and <tt>NUM\_SIM\_THREADS</tt>) are defined as lists to facilitate the execution of multiple simulation. If lists are not used, the tool will stop working. Use a list with *length = 1* to consider a single value for a parameter; otherwise, use a list with *length = N* to study your system with *N* different values for the considered parameter. 
+Note that all input parameters (except <tt>OUTFILE</tt>) are defined as lists to facilitate the execution of multiple simulation. If lists are not used, the tool will stop working. Use a list with *length = 1* to consider a single value for a parameter; otherwise, use a list with *length = N* to study your system with *N* different values for the considered parameter. 
 
 The tool *combines* all provided input parameters and executes as many simulations as the total number of combinations of input parameters.
 

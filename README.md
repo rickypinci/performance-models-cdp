@@ -37,7 +37,7 @@ Catia Trubiani (Gran Sasso Science Institute), Italy
 ## Prerequisites
 - Python 3.8.10
 - Users can install required Python modules by running <tt>pip3 install -r requirements.txt</tt>
-- Java Modelling Tools (JMT), download the [JAR version](https://sourceforge.net/projects/jmt/files/jmt/JMT-1.2.0/JMT-singlejar-1.2.0.jar/download). After downloading the JAR file, change the *jmtpath* variable in <tt>varEnv.py</tt> with the path to the file.
+- Java Modelling Tools (JMT), download the [JAR version](https://sourceforge.net/projects/jmt/files/jmt/JMT-1.2.0/JMT-singlejar-1.2.0.jar/download). After downloading the JAR file, change the *jmtpath* variable in <tt>varEnv.py</tt> with the path of the newly downloaded file.
   - [Oracle/Sun Java Runtime Environment](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (version 1.6 or later) or [OpenJDK](https://openjdk.org/install/) (version 9 or later)
 
 

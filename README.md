@@ -43,4 +43,10 @@ Catia Trubiani (Gran Sasso Science Institute), Italy
 
 ## Run a simulation
 To run a simulation, please check the README file in the folder of the desired design pattern.
-- [Anti-corruption Layer](Anti\_Corruption\_Layer/README.md)
+- [Anti-corruption Layer](Anti\_Corruption\_Layer/)
+- [Backends for Frontends](Backends\_for\_Frontends/)
+- [CQRS](CQRS/)
+- [Gateway Aggregation](Gateway\_Aggregation/)
+- [Gateway Offloading](Gateway\_Offloading/)
+- [Pipes and Filters](Pipes\_and\_Filters/)
+- [Static Content Hosting](Static\_Content\_Hosting/)

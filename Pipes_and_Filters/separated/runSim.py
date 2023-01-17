@@ -5,7 +5,7 @@ import xml.etree.ElementTree as et
 from multiprocessing import Pool, Lock
 import time
 sys.path.insert(1, '../../')
-import varEnv
+from varEnv import * # To import *jmtpath* and *NUM_SIM_THREADS*
 
 
 

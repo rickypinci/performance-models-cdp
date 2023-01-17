@@ -38,7 +38,6 @@ The tool *combines* all provided input parameters and executes as many simulatio
 | Parameter | Description |
 | --- | --- |
 | OUTFILE | Name of the file where simulation results will be stored |
-| NUM\_SIM\_THREADS | How many simulations should be run in parallel |
 | N\_TOT | Total number of requests in the system |
 | N\_A | Number of type A requests in the system |
 | Z\_A | Think time of type A requests |

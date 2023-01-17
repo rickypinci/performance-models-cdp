@@ -1,6 +1,6 @@
 # Replication Package: Performance Modeling and Analysis of Design Patterns for Microservice Systems
 
-[![DOI](https://zenodo.org/badge/560469456.svg)](https://zenodo.org/badge/latestdoi/560469456)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7503633.svg)](https://doi.org/10.5281/zenodo.7503633)  
 This package contains performance models and results of seven cloud design patterns analyzed in the paper *"Performance Modeling and Analysis of Design Patterns for Microservice Systems"* accepted for publication in the 20th IEEE International Conference on Software Architecture (ICSA 2023).
 
 

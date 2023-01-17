@@ -22,6 +22,7 @@ Catia Trubiani (Gran Sasso Science Institute), Italy
 
 ## Available Files
 - <tt>sim\_time\_analysis.ipynb</tt> that provides statistics and distributions of the simulation time.
+- <tt>varEnv.py</tt> where the location of the simulator (JAR file) and the number of concurrent simulations to run is specified.
 - <tt>Images/</tt> that contains figures (and some source files) presented in the paper.
 - A folder for each one of the seven cloud design patterns analyzed in the paper.
 - All these folders (except <tt>CQRS/</tt> and <tt>Pipes\_and\_Filters/</tt>) are organized as follows:
@@ -36,7 +37,7 @@ Catia Trubiani (Gran Sasso Science Institute), Italy
 ## Prerequisites
 - Python 3.8.10
 - Users can install required Python modules by running <tt>pip3 install -r requirements.txt</tt>
-- Java Modelling Tools (JMT), download the [JAR version](https://sourceforge.net/projects/jmt/files/jmt/JMT-1.2.1/JMT-singlejar-1.2.1.jar/download)
+- Java Modelling Tools (JMT), download the [JAR version](https://sourceforge.net/projects/jmt/files/jmt/JMT-1.2.0/JMT-singlejar-1.2.0.jar/download). After downloading the JAR file, change the *jmtpath* variable in <tt>varEnv.py</tt> with the path to the file.
   - [Oracle/Sun Java Runtime Environment](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (version 1.6 or later) or [OpenJDK](https://openjdk.org/install/) (version 9 or later)
 
 

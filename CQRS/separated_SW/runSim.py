@@ -4,6 +4,8 @@ import random
 import xml.etree.ElementTree as et
 from multiprocessing import Pool, Lock
 import time
+sys.path.insert(1, '../../')
+import varEnv
 
 
 
@@ -19,7 +21,6 @@ def genModel(idx, source, params, modelName):
 			
 			
 def runSim(idx, source, params, outfile):
-	jmtpath = '~/JMT/JMT-1.2.0.jar'
 	modelName = 'model' + str(idx) + '.jsimg'
 	resultName = modelName + '-result.jsim'
 	genModel(idx, source, params, modelName)
@@ -52,7 +53,6 @@ def init(l):
 	
 def main():
 	OUTFILE = 'sep_mod.csv'
-	NUM_SIM_THREADS = 10
 
 	N_TOT = 100
 	N_r = [90]

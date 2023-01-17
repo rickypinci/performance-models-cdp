@@ -28,7 +28,7 @@ Please, follow these steps to study your own applications with our model:
 5. Open <tt>analysis.ipynb</tt>.
 6. Execute all cells in that file.
 
-Note that all input parameters (except <tt>OUTFILE</tt> and <tt>NUM\_SIM\_THREADS</tt>) are defined as lists to facilitate the execution of multiple simulation. If lists are not used, the tool will stop working. Use a list with *length = 1* to consider a single value for a parameter; otherwhise, use a list with *length = N* to study your system with *N* different values for the considered parameter. 
+Note that all input parameters (except <tt>OUTFILE</tt> and <tt>NUM\_SIM\_THREADS</tt>) are defined as lists to facilitate the execution of multiple simulation. If lists are not used, the tool will stop working. Use a list with *length = 1* to consider a single value for a parameter; otherwise, use a list with *length = N* to study your system with *N* different values for the considered parameter. 
 
 The tool *combines* all provided input parameters and executes as many simulations as the total number of combinations of input parameters.
 
